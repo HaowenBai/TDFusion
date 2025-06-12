@@ -21,6 +21,7 @@ Multi-modal image fusion aggregates information from multiple sensor sources, ac
   title={Task-driven Image Fusion with Learnable Fusion Loss},
   author={Bai, Haowen and Zhang, Jiangshe and Zhao, Zixiang and Wu, Yichen and Deng, Lilun and Cui, Yukun and Feng, Tao and Xu, Shuang},
   booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages     = {7457-7468}
   year={2025}
 }
 ```
@@ -95,3 +96,13 @@ Then run
 python test.py
 ``` 
 and the fusion results will be saved in the 'path_result'.
+
+### About Downstream tasks
+
+Our training and testing code is from the following GitHub repository:
+https://github.com/bubbliiiing
+
+Specifically:  
+Semantic Segmentation: https://github.com/bubbliiiing/segformer-pytorch   
+Object Detection: https://github.com/bubbliiiing/yolov8-pytorch  
+We have not made any modifications to the code, except for hyperparameters such as epoch and batch size. Please refer to the original repositories for details.
