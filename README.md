@@ -1,8 +1,9 @@
 # TDFusion
 Codes for ***Task-driven Image Fusion with Learnable Fusion Loss (CVPR 2025 highlight)***
 
-[Haowen Bai](), [Jiangshe Zhang](http://gr.xjtu.edu.cn/web/jszhang), [Zixiang Zhao](https://zhaozixiang1228.github.io/), [Yichen Wu](https://wuyichen-97.github.io/), [Lilun Deng](), [Yukun Cui](), [Tao Feng](), [Shuang Xu](https://shuangxu96.github.io/).
+[Haowen Bai](https://haowenbai.github.io/), [Jiangshe Zhang](http://gr.xjtu.edu.cn/web/jszhang), [Zixiang Zhao](https://zhaozixiang1228.github.io/), [Yichen Wu](https://wuyichen-97.github.io/), [Lilun Deng](), [Yukun Cui](), [Tao Feng](), [Shuang Xu](https://shuangxu96.github.io/).
 
+-[*[Paper]*](https://openaccess.thecvf.com/content/CVPR2025/html/Bai_Task-driven_Image_Fusion_with_Learnable_Fusion_Loss_CVPR_2025_paper.html0)  
 -[*[ArXiv]*](https://arxiv.org/pdf/2412.03240)  
 
 
