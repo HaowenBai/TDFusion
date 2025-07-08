@@ -335,7 +335,7 @@ class ReFusion(nn.Module):
             x1 = layer(x1,meta=meta)
         for layer in self.encoder2:
             x2 = layer(x2,meta=meta)
-        out=self.FM(x1,x2)
+        out=self.FM(x1,x2,meta=meta)
         for layer in self.decoder:
             out = layer(out,meta=meta)
 
