@@ -22,6 +22,7 @@ path_result=r"test_results"
 
 Fusion_model= ReFusion().to(device)
 Fusion_model.load_state_dict(torch.load(path_model))
+os.makedirs(path_result,exist_ok=True)
 with torch.no_grad():
     for imgname in tqdm(os.listdir(path_img1)):
         img1=image_read(os.path.join(path_img1, imgname))
@@ -49,4 +50,5 @@ with torch.no_grad():
         data_Fuse=Fusion_model(torch.cat((img1,img2),1))
         data_Fuse=(data_Fuse-torch.min(data_Fuse))/(torch.max(data_Fuse)-torch.min(data_Fuse))
         fused_image = np.squeeze((data_Fuse * 255).cpu().numpy())
+
         img_save(fused_image, imgname.split(sep='.')[0], path_result, CrCb)
